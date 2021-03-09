@@ -1,4 +1,5 @@
 module.exports = function check(str, bracketsConfig) {
+  bracketsConfig;
   let s;
   str = str.replace(/[^{}[\]()(12)(34)(56)(77)(88)(||)]/g, '');
   while (s != str) {
